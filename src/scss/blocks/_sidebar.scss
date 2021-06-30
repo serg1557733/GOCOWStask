@@ -1,0 +1,22 @@
+.sidebar {
+    position: fixed;
+    height: 20px;
+    width: 200px;
+    z-index: 99;
+    left: -90px;
+    top: 260px;
+    background: #C1A2FF;
+    opacity: 0.8;
+    border-radius: 5px 5px 0px 0px;
+    transform: rotate(90deg);
+    &__text {
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: #000000; 
+            font-family: Roboto;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.columns {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    &__wrapper {
+        display: flex;
+    }
+    &__item {
+        flex-basis: 33.33%;
+        min-height: 270px;
+        padding: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    &-blue {
+            background: #80D6FF;
+        }
+    }
+}

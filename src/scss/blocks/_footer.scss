@@ -1,0 +1,39 @@
+.footer {
+    &__wrapper {
+        margin: 0 auto;
+        width: 350px;
+        height: 90px;
+    }
+    &__content {
+        position: relative;
+        width: 310px;
+        min-height: 90px;
+        padding: 20px 0;
+        background: #80D6FF;
+        border-radius: 10px;
+        text-align: center;
+        span {
+            position: absolute;
+            width: 273px;
+            height: 50px;
+            z-index: 5;
+            left: 21px;
+            font-size: 50px;
+            line-height: 50px;
+            color: #000000;
+            mix-blend-mode: overlay;
+        }
+        &::after {
+            content:'';
+            position: absolute;
+            z-index: 0;
+            width: 310px;
+            height: 90px;
+            left: 0;
+            top: 50%;
+            background: #C1A2FF;
+            transform: rotate(-15deg) translateY(-7%);
+            border-bottom: 1px solid transparent;
+            }
+    }
+}
