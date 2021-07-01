@@ -82,7 +82,7 @@
         }
     }
     &__button {
-        display: block;
+        display: none;
         margin: 30px auto;
         width: 150px;
         height: 34.04px;
@@ -93,4 +93,11 @@
         line-height: 18px;
         color: #FFFFFF;
         }
+    
+}
+.active {
+        display: block;
+    }
+.mobile__nav {
+    display: none;
 }

@@ -1,0 +1,41 @@
+.table {
+    background: #F7F7FA;
+    border-radius: 1px;
+    width:100%;
+    tr {
+        background: #FFFFFF;
+        border-radius: 1px;
+        border: 1px solid #D1CFD7;
+        width:248px;
+        height: 40px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    td {
+        padding-left: 8px;
+        &:nth-child(3){
+            text-align: right;
+            width:194px;
+            height: 40px;
+        }
+        &:nth-child(1){
+            width:240px;
+            height: 40px;       
+        }
+    }
+    &-header {
+        border-collapse: collapse;
+        td {
+            border: 1px solid #D1CFD7;
+            background: #F7F7FA;
+            &:nth-child(3){
+                text-align: center;
+                
+            }
+        }   
+    }
+
+}

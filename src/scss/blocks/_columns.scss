@@ -12,8 +12,11 @@
         display: flex;
         justify-content: center;
         text-align: center;
-    &-blue {
-            background: #80D6FF;
+        &-blue {
+                background: #80D6FF;
+            }
+        &-media {
+            display: none;
         }
     }
 }

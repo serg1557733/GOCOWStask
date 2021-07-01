@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rokkitt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
@@ -57,14 +60,30 @@
                         <li><a href="#">Lorem ipsum dolor sit.</a></li>
                     </ol>
                 </aside>
+                <nav>
+                    <div class="mobile__nav">
+                        <div class="header__btns">
+                            <div class="header__btn">
+                                <a href="">lorem1</a></div>
+                            <div class="header__btn">
+                                <a href="">lorem2</a></div>
+                            <div class="header__btn">
+                                <a href="">lorem3</a></div>
+                            <div class="header__btn">
+                                <a href="">lorem4</a></div>
+                        </div>
+                    </div>
+                </nav>
                 <div class="main__content">
-                    <table class="table" id="data">
-
-
-
-
+                    <table class="table table-header" >
+                        <tr>
+                            <td>Ticker</td>
+                            <td>Name</td>
+                            <td>SCTR</td>
+                        </tr>
                     </table>
-                    <button class="main__button">
+                    <table class="table" id="data"></table>
+                    <button class="main__button ">
                         Show more
                     </button>
                 </div>
@@ -75,9 +94,9 @@
     <section class="columns">
         <div class="container">
             <div class="columns__wrapper">
-                <div class="columns__item columns__item-blue"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam iste, accusamus illo ut necessitatibus. Doloribus recusandae ad fuga nihil?</span></div>
-                <div class="columns__item"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum quam amet reiciendis hic alias nobis, quia cupiditate qui nostrum eligendi necessitatibus deleniti dolor natus id dolores dolore, porro labore corrupti repellendus laboriosam esse consequatur. Ipsum quam est molestiae, fugiat reiciendis suscipit laudantium aperiam consequuntur repellat! Velit voluptatum fuga magnam.</span> </div>
-                <div class="columns__item columns__item-blue"> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione temporibus dolor aliquam enim voluptas quidem.</span></div>
+                <div class="columns__item columns__item-blue"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam totam iste, accusamus illo ut necessitatibus. Doloribus recusandae ad fuga nihil?</span><div class="columns__item columns__item-blue columns__item-media"> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione temporibus dolor aliquam enim voluptas quidem.</span></div></div>
+                <div class="columns__item columns__item-transp"> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ipsum quam amet reiciendis hic alias nobis, quia cupiditate qui nostrum eligendi necessitatibus deleniti dolor natus id dolores dolore, porro labore corrupti repellendus laboriosam esse consequatur. Ipsum quam est molestiae, fugiat reiciendis suscipit laudantium aperiam consequuntur repellat! Velit voluptatum fuga magnam.</span></div>
+                <div class="columns__item columns__item-blue columns__item-hidden"> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione temporibus dolor aliquam enim voluptas quidem.</span></div>
             </div>
         </div>
     </section>

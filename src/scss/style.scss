@@ -11,9 +11,12 @@
     font-weight: 400;
 }
 
+
 @import 'base/variables.scss';
 @import 'blocks/sidebar';
 @import 'blocks/header.scss';
 @import 'blocks/main.scss';
 @import 'blocks/columns';
 @import 'blocks/footer';
+@import 'blocks/table';
+@import 'blocks/media';
