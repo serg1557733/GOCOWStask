@@ -5,7 +5,7 @@
         width: 1320px;
         min-height: 99.01px;
         padding-top: 15px; 
-        background: url(../img/header.png) center no-repeat;
+        background: url(../img/header.png) center center/cover no-repeat;
         &::after {
             position:absolute;
             content: " ";
